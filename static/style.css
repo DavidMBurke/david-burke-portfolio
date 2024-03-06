@@ -1,0 +1,131 @@
+:root {
+    --color-accent: oklch(59% 19% 246 / 40%);
+}
+
+body {
+    font: 100%/1.5 system-ui;
+}
+
+.form-list {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    width: 20%;
+}
+
+input {
+    width: 80%;
+    border-radius: 2px;
+}
+
+textarea {
+    width: 80%;
+    border-radius: 2px;
+}
+
+h1, h2, h3, h4, h5, ol, p {
+    margin: 0px
+}
+
+time {
+    font-size: 2.5vh
+}
+
+img {
+    max-width:80%
+}
+
+body {
+    margin-inline: 10%
+}
+
+section {
+    padding: 2px;
+}
+
+ol {
+    width: 100%-40px;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    display: contents
+}
+
+nav {
+    --border-color: oklch(50% 10% 200 / 40%);
+    margin-bottom: 2%;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--border-color);
+}
+
+nav a {
+    text-decoration: none;
+    height: 100%;
+    flex: 1;
+    color: inherit;
+    text-align: center;
+    padding: 0.5em;
+    padding-bottom: 0;
+}
+
+nav a:hover {
+    border-bottom-color: var(--color-accent);
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    background-color: oklch(from var(--color-accent) 95% 5% h)
+}
+
+.current {
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: oklch(80% 3% 200);
+    font-weight: bold;
+}
+
+html {
+    accent-color: var(--color-accent);
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+}
+
+article {
+    grid-template-rows: subgrid;
+    grid-row: span 3;
+}
+
+article h2 {
+    margin: 0;
+}
+
+label.color-scheme {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
