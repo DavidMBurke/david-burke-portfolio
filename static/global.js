@@ -5,18 +5,6 @@ function $$ (selector, context = document) {
 }
 let navLinks = $$("nav a");
 
-let pages = [
-    {url: ".", title: "Home"},
-    {url: "projects", title: "Projects"},
-    {url: "contact", title: "Contact"},
-    {url: "resume", title: "Resume"}, 
-    {url: "https://github.com/DavidMBurke", title: "GitHub"}
-];
-
-let nav = document.createElement("nav");
-
-document.body.prepend(nav);
-
 const ARE_WE_HOME = document.documentElement.classList.contains("home");
 
 for (let p of pages) {
@@ -35,24 +23,5 @@ for (let p of pages) {
 }
 
 document.body.insertAdjacentHTML("afterbegin", `
-	<label class="color-scheme">
-		Theme:
-		<select>
-			<option value="light dark">Auto</option>
-            <option value="light">Light</option>
-            <option value="dark">Dark</option>
-		</select>
-	</label>`
+	`
 );
-
-let select = $$("select")[0];
-
-if ("colorScheme" in localStorage) {
-    document.documentElement.style.setProperty("color-scheme", localStorage.colorScheme);
-    select.value = localStorage.colorScheme;
-}
-
-select.addEventListener("input", function (event) {
-    document.documentElement.style.setProperty("color-scheme", event.target.value);
-    localStorage.colorScheme = event.target.value
-}) 
