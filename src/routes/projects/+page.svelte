@@ -20,6 +20,10 @@
     let selectedYear;
     let filteredByYear;
     $: filteredByYear = projects.filter(project => {
+        if (query) {
+            let values = Object.values(project).join("\n").toLowerCase();
+            return values.includes(query.toLowerCase());
+        }
         if (selectedYear) {
             return project.year === selectedYear;
         }
