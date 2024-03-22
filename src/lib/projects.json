@@ -1,62 +1,79 @@
 [
     {
-        "title": "Lorem ipsum dolor sit.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Error expedita asperiores quasi! Culpa quae esse delectus provident fugit quia eum, laudantium odio dolorem cumque pariatur modi officia nulla sint perferendis."
+        "title": "MIT Data Visualization Assignment 4: Exploring Deceptive Uses of Data",
+        "year": 2024,
+        "link": "https://davidmburke.github.io/a4/",
+        "image": "./images/A4.png",
+        "description": "Exploration of deceptive uses of data by using persuasive visualizations to make and to disprove the same dishonest position."
     },
     {
-        "title": "Mollitia tempore aliquid deserunt!",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Optio molestias amet debitis deserunt, quis reprehenderit sint sapiente. Laborum aliquam eos ipsum facilis fuga, dignissimos provident libero neque quos dolore architecto assumenda. Quos dicta ducimus assumenda nihil ipsam voluptatum."
+        "title": "MIT Data Visualization Assignment 3: Sketching Data",
+        "year": 2024,
+        "link": "https://davidmburke.github.io/a3/",
+        "image": "./images/A3.png",
+        "description": "Sketching data to perform inital analysis for visualization."
     },
     {
-        "title": "Repudiandae rerum ullam illum?",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Perferendis, temporibus distinctio eveniet cupiditate sequi cumque quos, dolore assumenda ea ducimus doloremque maxime! Ipsum, necessitatibus odio temporibus eos, iusto maxime sed at, autem ex commodi eius culpa numquam obcaecati."
+        "title": "MIT Data Visualization Assignment 2: Impacts of Single Family Housing Districts",
+        "year": 2024,
+        "image": "./images/A2.png",
+        "link": "https://davidmburke.github.io/SingleFamilyHousingImpacts/",
+        "description": "Identifying and visualizing potential impacts from single-family zoning in the Greater Boston Area."
     },
     {
-        "title": "Explicabo error deleniti eius.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Atque vel eos accusantium officia aspernatur. Dolore sequi quibusdam quia eos corrupti dicta, facilis ipsam sit impedit tenetur, doloremque esse, soluta nam maiores hic et eligendi quidem veniam sed! Illum."
+        "title": "Scribble Me This",
+        "year": 2022,
+        "image": "./images/Scribble Me This.png",
+        "link" : "https://www.youtube.com/watch?v=eNn01r9uogw",
+        "description": "Capstone project from Full Stack Academy. A game in which players compete to get an AI to guess their drawing first given the same prompt. Model was created in ML5 using Google Quickdraw's data set and connects players using Socket.IO."
     },
     {
-        "title": "Ducimus optio earum numquam.",
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Quidem quos deleniti, eaque tempore illo minima itaque culpa! Ad, dicta vel repellendus quibusdam a doloribus cumque molestiae nulla eveniet dignissimos, veritatis corporis delectus commodi itaque quaerat aliquam, natus explicabo."
+        "title": "Exploration of Cellular Automata",
+        "year": 2022,
+        "image": "./images/Cellular Automata.png",
+        "link": "https://davidmburke.github.io/Cellular-Automata/",
+        "description": "Exploration of Cellular Automata in JavaScript, using React and HTML5. Includes implementations of a 'falling sand' game, Conway's Game of Life, Langton's Ant, and Wolfram's 1-D Cellular Automata."
     },
     {
         "title": "Unde soluta officiis commodi.",
+        "year": 2022,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Vero vel voluptate similique quo sed neque natus odio magnam unde consequuntur, quas earum, iusto laborum et commodi a soluta tenetur. Nulla quis perspiciatis doloremque suscipit quos est doloribus omnis!"
     },
     {
         "title": "Hic, cum molestias. Atque?",
+        "year": 2022,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Laborum cumque quasi officiis expedita, atque dolorum harum blanditiis illum sunt impedit nostrum. Laboriosam culpa ipsum similique, temporibus, dolor quibusdam molestias quas accusamus beatae id, repudiandae cum sit voluptatibus sequi!"
     },
     {
         "title": "Est rerum consequuntur sapiente?",
+        "year": 2022,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Saepe libero quo ad tenetur. Optio eligendi nobis dignissimos architecto vel commodi nisi unde provident consectetur ab non quae rem magnam fuga, facilis minus repellendus ullam at perspiciatis harum quos."
     },
     {
         "title": "Dicta assumenda voluptatum hic?",
+        "year": 2022,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Nulla fugiat, odio enim possimus sapiente vitae autem dolorum adipisci sequi modi excepturi voluptatem fugit nam veniam rerum dicta minima facilis earum? Doloribus sit aperiam cupiditate repudiandae tenetur fugiat voluptates."
     },
     {
         "title": "Quaerat unde odio molestiae.",
+        "year": 2022,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Cumque fugit voluptas et, labore id maxime unde blanditiis suscipit odio repudiandae? Nam, numquam aspernatur voluptatibus aut, tenetur quasi excepturi fugit dolorum magnam commodi voluptatum facilis repellendus ab deleniti velit?"
     },
     {
         "title": "Dolorem expedita aliquid quaerat.",
+        "year": 2022,
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
         "description": "Cumque deserunt eos delectus, asperiores culpa error doloribus voluptates eligendi ea ex, quia, numquam ullam voluptatem omnis corporis in animi quasi molestias iusto doloremque. Fugit quas quo nemo voluptates quod."
     },
     {
         "title": "In eum exercitationem minus.",
         "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Asperiores magni velit totam quia aspernatur, accusantium mollitia minus sint earum perspiciatis corrupti debitis laboriosam voluptatum similique possimus molestiae! Accusamus tempore distinctio quas, aliquam deleniti assumenda alias aliquid laudantium at!"
+        "description": "Asperiores magni velit totam quia aspernatur, accusantium mollitia minus sint earum perspiciatis corrupti debitis laboriosam voluptatum similique possimus molestiae! Accusamus tempore distinctio quas, aliquam deleniti assumenda alias aliquid laudantium at!",
+        "year": 2022
     }
 ]
