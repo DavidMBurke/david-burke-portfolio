@@ -1,5 +1,12 @@
 [
     {
+        "title": "Boston Bike Map",
+        "year": 2024,
+        "image": "./images/bikemapper.png",
+        "link": "https://davidmburke.github.io/bikewatching/",
+        "description": "Interactive maps showing bike traffic in Boston and Cambridge"
+    },
+    {
         "title": "MIT Data Visualization Assignment 4: Exploring Deceptive Uses of Data",
         "year": 2024,
         "link": "https://davidmburke.github.io/a4/",
@@ -33,12 +40,6 @@
         "image": "./images/Cellular Automata.png",
         "link": "https://davidmburke.github.io/Cellular-Automata/",
         "description": "Exploration of Cellular Automata in JavaScript, using React and HTML5. Includes implementations of a 'falling sand' game, Conway's Game of Life, Langton's Ant, and Wolfram's 1-D Cellular Automata."
-    },
-    {
-        "title": "Unde soluta officiis commodi.",
-        "year": 2022,
-        "image": "https://vis-society.github.io/labs/2/images/empty.svg",
-        "description": "Vero vel voluptate similique quo sed neque natus odio magnam unde consequuntur, quas earum, iusto laborum et commodi a soluta tenetur. Nulla quis perspiciatis doloremque suscipit quos est doloribus omnis!"
     },
     {
         "title": "Hic, cum molestias. Atque?",
