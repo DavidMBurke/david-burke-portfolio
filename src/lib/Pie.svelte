@@ -4,8 +4,8 @@
     export let data = [];
     export let selectedIndex = -1;
     let sliceGenerator = d3.pie().value(data => data.value);
-    let arcData = sliceGenerator(data);
-    let arcs = arcData.map(d => arcGenerator(d));
+    $: arcData = sliceGenerator(data);
+    $: arcs = arcData.map(d => arcGenerator(d));
     let colors = d3.scaleOrdinal(d3.schemeTableau10);
     function toggleWedge (index, event) {
         if (!event.key || event.key === "Enter") {
